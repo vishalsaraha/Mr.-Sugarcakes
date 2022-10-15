@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma&family=Comic+Neue&family=Hind+Vadodara:wght@700&display=swap');
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*navigation bar*/
+
+.navbar
+{
+    position: fixed;
+    width: 100%;
+   /* background: crimson; */
+    padding: 15px;
+    
+    
+}
+
+
+ /* .reveal
+{
+     background: crimson;
+     padding: 15px;
+    
+} */
+
+
+
+.max-width
+{
+    max-width: 100%;
+    padding: 0 5%;
+    
+}
+
+.navbar .max-width
+{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .max-width .menu-btn:hover:before
+{
+    transform: translateY(12px) rotate(135deg);
+}
+
+.navbar .max-width .menu-btn:hover:after
+{
+    transform: translateY(-12px) rotate(-135deg);
+}
+
+
+
+.navbar.sticky
+{
+    background: crimson;
+    padding: 15px;
+}
+
+.navbar .logo
+{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Hind Vadodara";
+}
+
+.navbar .max-width .menu li
+{
+    list-style: none;
+    display: inline-block;
+    font-family: "Hind Vadodara";
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: color 0.3s ease;
+    
+}
+
+.navbar .max-width .menu li:hover
+{
+    color: crimson;
+}
+
+.navbar .menu li a
+{
+    
+    color:white    
+}
+
+.navbar .menu li a:hover
+{
+    color:crimson;
+}
+
+
+/* Home Styling */
+
+.home 
+{
+    display: flex;
+    height: 100vh;
+    background: url(/img/bg2.jpg);
+    color: white;
+    min-height: 500px;
+    font-family: "Comic Neue";
+}
+
+.home .max-width
+{
+    margin: auto 0 auto 20px;
+}
+
+.home .home-content .text1
+{
+    font-size: 27px;
+
+}
+
+.home .home-content .text-1
+{
+    font-size: 30px;
+    font-family: "Hind Vadodara";
+}
+
+.home .home-content .text-2
+{
+    font-family: "Hind Vadodara";
+    font-size: 65px;
+    margin: 5px o;
+} 
+
+.home .home-content .text-3
+{
+    font-size: 40px;
+    font-family: "Hind Vadodara";
+}
+
+.home .home-content .text3 span
+{
+    font-size: 40px;
+    color: brown;
+    font-family: "Hind Vadodara";
+}
